@@ -39,11 +39,12 @@
 // export default HeroSection;
 import React from "react";
 import Image from 'next/image';
-import Layout from '../components/layout';
+// import Layout from '../components/layout';
 
 const HeroSection = () => {
   return (
-    <Layout>
+    <div>
+
       <div className="flex flex-col md:flex-row items-center justify-between gap-10">
         {/* Text */}
         <div className="max-w-lg">
@@ -60,7 +61,7 @@ const HeroSection = () => {
         {/* Image */}
         <div>
           <Image
-            src="/gradpic.jpeg"
+            src="./gradpic.jpeg"
             alt="Graduation"
             width={400}
             height={600}
@@ -68,7 +69,8 @@ const HeroSection = () => {
           />
         </div>
       </div>
-    </Layout>
+    </div>
+
   );
 };
 
