@@ -61,7 +61,7 @@ const HeroSection = () => {
         {/* Image */}
         <div>
           <Image
-            src="./gradpic.jpeg"
+            src="/gradpic.jpeg"
             alt="Graduation"
             width={400}
             height={600}
